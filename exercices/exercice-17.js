@@ -14,16 +14,3 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-function fruit(arr){
-let count = {};
-for(let i = 0; i < arr.length ;i++ ){
-    if(count[arr[i]]){
-    count[arr[i]]++;
-    }else {
-        count[arr[i]]=1;
-    }
-  }
-  return count ;
-}
-let arr = ["pomme", "banane", "pomme", "orange", "banane", "pomme"];
-console.log(fruit(arr));
