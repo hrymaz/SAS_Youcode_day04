@@ -14,7 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-function supprimerDoublons(arr){
+function Doublons(arr){
  const resulte = []; 
  for (let i = 0; i < arr.length; i++) {
     if(!resulte.includes(arr[i])){
@@ -23,4 +23,4 @@ function supprimerDoublons(arr){
  }
  return resulte
 }const tableau =[1, 2, 2, 3, 4, 4, 5];
-console.log(supprimerDoublons(tableau));
+console.log(Doublons(tableau));

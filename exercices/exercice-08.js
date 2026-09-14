@@ -15,7 +15,7 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function trouverMinMax(tableau) {
+function MinMax(tableau) {
     let min = tableau[0];
     let max = tableau[0];
 
@@ -31,8 +31,8 @@ function trouverMinMax(tableau) {
     return "Le plus petit est : " + min + " | Le plus grand est : " + max;
 }
 
-const mesNombres =4;
-const resultat = trouverMinMax(mesNombres);
+const nombres =[4, 8, 2, 10, 5];
+const resultat = MinMax(nombres);
 
 console.log(resultat);
 

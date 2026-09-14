@@ -14,3 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+
+let couleurs = ["Rouge", "Vert", "Bleu"];
+
+for(let i = 0; i < couleurs.length; i++){
+
+  for(let j = 0; j < couleurs.length; j++){
+
+    if(i != j){
+      console.log(couleurs[i] + "-" + couleurs[j]);
+    }
+
+  }
+}

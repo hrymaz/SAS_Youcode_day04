@@ -14,5 +14,24 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
 
+const nombres = [10, 20, 30, 40, 45, 50, 60];
+
+let debut = 0;
+let fin = nombres.length - 1;
+
+for(let i = 0; i < nombres.length; i++){
+
+  let milieu = Math.floor((debut + fin) / 2);
+
+  if(nombres[milieu] < 45){
+    debut = milieu + 1;
+
+  } else if(nombres[milieu] > 45){
+    fin = milieu - 1;
+
+  } else {
+    console.log(milieu);
+    break;
+  }
+} 
